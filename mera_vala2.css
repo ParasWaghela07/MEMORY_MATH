@@ -1,0 +1,120 @@
+@media screen and (max-width: 576px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 6.7vw;
+    }
+
+    .body{
+        width: 100%;
+        height: 86vh;
+        /* background-color: white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .instrcution{
+        width: 100%;
+        height: 100vh;
+        font-size: 0.9em;
+        padding: 2vw;
+    }
+    .rules p{
+        margin: 1.7vh 0;
+    }
+    .choose{
+        width: 100%;
+        height: 100vh;
+        font-size: 0.9em;
+        padding: 2vw;
+    }
+    .level p{
+        margin: 1.7vh 0;
+    }
+}
+
+
+@media (max-width:768px) and (min-width:576px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 6vw;
+    }
+
+    .body{
+        width: 100%;
+        height: 86vh;
+        /* background-color: white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .instrcution{
+        width: 100%;
+        height: 100vh;
+        font-size: 1em;
+        padding: 2vw;
+    }
+    .rules p{
+        margin: 1.7vh 0;
+    }
+    .choose{
+        width: 100%;
+        height: 100vh;
+        font-size: 1em;
+        padding: 2vw;
+    }
+    .level p{
+        margin: 1.7vh 0;
+    }
+}
+
+@media (max-width:1000px) and (min-width:768px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 5vw;
+    }
+
+    .body{
+        width: 100%;
+        /* background-color: white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .instrcution{
+        width: 100%;
+        height: 100vh;
+        font-size: 1.1em;
+        padding: 2vw;
+    }
+    .rules p{
+        margin: 1.7vh 0;
+    }
+    .choose{
+        width: 100%;
+        height: 100vh;
+        font-size: 1.1em;
+        padding: 2vw;
+    }
+    .level p{
+        margin: 1.7vh 0;
+    }
+}
+
+@media (max-width:1200px) and (min-width:992px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 4vw;
+    }
+}
+@media (max-width:2000px) and (min-width:1200px){
+    
+} 
+
