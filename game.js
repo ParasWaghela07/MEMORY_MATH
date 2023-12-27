@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
 
-            if (a == 5) {
+            if (a == 2) {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
@@ -132,10 +132,18 @@ document.getElementById("btn").addEventListener('click',function(){
     let userAns=document.getElementById("ansbox");
 
     if(str==userAns.value){
-        document.getElementById("num").innerText = "Y" ;
+        document.getElementById("num").innerText = str ;
+        document.getElementById("num").style.color="rgb(2, 189, 2)";
+        document.getElementById("signal").innerText="CORRECT !"
+        document.getElementById("signal").style.color="rgb(2, 189, 2)";
+        document.getElementById("signal").style.fontWeight="600";
     }
     else{
-        document.getElementById("num").innerText = "N" ;
+        document.getElementById("num").innerText = str ;
+        document.getElementById("num").style.color="red";
+        document.getElementById("signal").innerText="INCORRECT !"
+        document.getElementById("signal").style.color="red";
+        document.getElementById("signal").style.fontWeight="600";
     }
 })
 
