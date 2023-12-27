@@ -172,38 +172,3 @@
     }
 }
 
-@media(min-width:1200px){
-    #slogan{
-        font-size: 0;
-    }
-    #Name{
-        font-size: 3.3vw;
-    }
-
-    .body{
-        width: 100%;
-        /* background-color: white; */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-            justify-content: space-around;
-    }
-    .instrcution{
-        width: 100%;
-        height: 100vh;
-        font-size: 1.4vw;
-        padding: 2vw;
-    }
-    .rules p{
-        margin: 1.3vh 0;
-    }
-    .choose{
-        width: 100%;
-        height: 100vh;
-        font-size: 1.2vw;
-        padding: 2vw;
-    }
-    .level p{
-        margin: 1.5vh 0;
-    }
-}
