@@ -1,3 +1,6 @@
+let won=new Audio("correct.mp3");
+let lose=new Audio("incorrect.mp3");
+
 let a = 0;
 let intervalId; // Variable to store the interval ID
 let str="";
@@ -5,6 +8,7 @@ let arr=["+","-"];
 let check=1;
 
 document.addEventListener('DOMContentLoaded', function() {
+    homeMusic.pause();
     var selectedDifficulty = localStorage.getItem('selectedDifficulty');
 
     if (selectedDifficulty === 'easy') {
@@ -131,6 +135,8 @@ document.getElementById("btn").addEventListener('click',function(){
     let userAns=document.getElementById("ansbox");
 
     if(str==userAns.value){
+
+        won.play();
         document.getElementById("num").innerText = str ;
         document.getElementById("num").style.color="rgb(2, 189, 2)";
         document.getElementById("signal").innerText="CORRECT !"
@@ -138,6 +144,7 @@ document.getElementById("btn").addEventListener('click',function(){
         document.getElementById("signal").style.fontWeight="600";
     }
     else{
+        lose.play();
         document.getElementById("num").innerText = str ;
         document.getElementById("num").style.color="red";
         document.getElementById("signal").innerText="INCORRECT !"

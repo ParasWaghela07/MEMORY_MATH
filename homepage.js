@@ -1,14 +1,7 @@
-// let getdifficulties=document.getElementsByClassName("diffi");
-
-// let difficulties=Array.from(getdifficulties);
-
-// difficulties.forEach(element => {
-//     element.addEventListener('click',function(){
-//         if(element.target.innerText==="EASY"){
-//             document.getElementById("num").innerText="500";
-//         }
-//     })
-// });
+let homeMusic=new Audio("home.mp3");
+document.addEventListener('DOMContentLoaded', function() {
+    homeMusic.play();
+})
 let difficulties = document.getElementsByClassName("diffi");
 let difficultiesArray = Array.from(difficulties);
 
