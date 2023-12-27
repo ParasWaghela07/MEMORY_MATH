@@ -30,7 +30,7 @@
     .instrcution{
         width: 100%;
         height: 100vh;
-        font-size: 0.9em;
+        font-size: 3vw;
         padding: 2vw;
     }
     .rules p{
@@ -39,7 +39,7 @@
     .choose{
         width: 100%;
         height: 100vh;
-        font-size: 0.9em;
+        font-size: 3.3vw;
         padding: 2vw;
     }
     .level p{
