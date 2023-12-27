@@ -2,7 +2,6 @@ let a = 0;
 let intervalId; // Variable to store the interval ID
 let str="";
 let arr=["+","-"];
-let arr2=["+","*"];
 let check=1;
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -15,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if(check==1){
 
             check=0;
-            let x = Math.floor(Math.random() * 100);
+            let x = Math.floor(Math.random() * 10);
             document.getElementById("num").innerText = x;
             str+=x;
             a++;
@@ -39,11 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
-                    },3000);
+                    },2000);
             }
 
             
-        }, 3000);
+        }, 2000);
 
     }
     
@@ -78,11 +77,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
-                    },2500);
+                    },3000);
             }
 
             
-        }, 2500);
+        }, 3000);
 
     }
     else if (selectedDifficulty === 'insane') {
@@ -105,8 +104,8 @@ document.addEventListener('DOMContentLoaded', function() {
             else if(check==0){
 
                 let y=Math.floor(Math.random() * 2);
-                document.getElementById("num").innerText = arr2[y];
-                str+=arr2[y];
+                document.getElementById("num").innerText = arr[y];
+                str+=arr[y];
                 check=1;
         
             }
