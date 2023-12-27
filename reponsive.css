@@ -35,6 +35,7 @@
     }
     .rules p{
         margin: 1.7vh 0;
+        font-size: 4vw;
     }
     .choose{
         width: 100%;
@@ -44,6 +45,7 @@
     }
     .level p{
         margin: 1.7vh 0;
+        font-size: 5vw;
     }
 }
 
