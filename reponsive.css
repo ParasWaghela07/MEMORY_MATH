@@ -35,7 +35,7 @@
     }
     .rules p{
         margin: 1.7vh 0;
-        font-size: 4vw;
+        font-size: 3.4vw;
     }
     .choose{
         width: 100%;
@@ -45,7 +45,7 @@
     }
     .level p{
         margin: 1.7vh 0;
-        font-size: 5vw;
+        font-size: 4vw;
     }
 }
 
@@ -80,6 +80,7 @@
     }
     .rules p{
         margin: 1.7vh 0;
+        font-size: 3.4vw;
     }
     .choose{
         width: 100%;
@@ -89,6 +90,7 @@
     }
     .level p{
         margin: 1.7vh 0;
+        font-size: 3.6vw;
     }
 }
 
@@ -121,6 +123,7 @@
     }
     .rules p{
         margin: 1.7vh 0;
+        font-size: 3vw;
     }
     .choose{
         width: 100%;
@@ -130,6 +133,7 @@
     }
     .level p{
         margin: 1.7vh 0;
+        font-size: 3.2vw;
     }
 }
 
@@ -162,6 +166,8 @@
     }
     .rules p{
         margin: 1.5vh 0;
+        font-size: 3.2vw;
+        
     }
     .choose{
         width: 100%;
@@ -171,6 +177,7 @@
     }
     .level p{
         margin: 1.7vh 0;
+        font-size: 3.7vw;
     }
 }
 
