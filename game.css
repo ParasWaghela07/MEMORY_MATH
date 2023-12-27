@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#Name{
+    font-weight: bolder;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgb(255, 221, 227);
+    padding: 2vw;
+    margin-bottom: 1vh;
+    font-size: 3em;
+    color: rgb(83, 77, 77);
+    -webkit-box-shadow: 0px 5px 7px pink;
+            box-shadow: 0px 5px 7px pink;
+}
+
+.body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px rgb(106, 105, 105);
+}
+
+#num{
+    border: 2px solid black;
+    font-size: 2vw;
+    width: 12vw;
+    height: 24vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.note{
+    margin:2vh 1.5vw;
+    font-size: 2.2vh;
+    color: rgb(237, 5, 5);
+}
+.note h2{
+    color: black;
+}
+
+.ansContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ansbox{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 2vw;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    padding: 1.2vh;
+    font-size: 1.2vw;
+    border: 0.2px solid gray;
+    
+}
+
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Webkit browsers (like Chrome and Safari) */
+    margin: 0; /* Optional: Remove margin */
+  }
+
+#ansbox::placeholder{
+    text-align: center;
+    font-size: 1.2vw;
+    color: rgb(190, 185, 185);
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin: 2vh;
+    /* border: 2px solid black; */
+    padding: 1vw;
+    font-size: 1vw;
+    border-radius: 20%;
+    background-color: aliceblue;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(166, 243, 166);
+    box-shadow: 0px 0px 5px rgb(2, 189, 2);
+}
