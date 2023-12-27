@@ -44,12 +44,12 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     box-shadow: 0px 0px 5px rgb(106, 105, 105);
 }
 
 #num{
-    border: 2px solid black;
+    border: 1px solid pink;
     font-size: 2vw;
     width: 12vw;
     height: 24vh;
@@ -111,7 +111,7 @@
     justify-content: center;
 }
 
-.btn{
+#btn{
     margin: 2vh;
     /* border: 2px solid black; */
     padding: 1vw;
@@ -122,7 +122,6 @@
     cursor: pointer;
 }
 
-.btn:hover{
-    background-color: rgb(166, 243, 166);
+#btn:hover{
     box-shadow: 0px 0px 5px rgb(2, 189, 2);
 }
