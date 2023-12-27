@@ -39,11 +39,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
-                    },2500);
+                    },3000);
             }
 
             
-        }, 2500);
+        }, 3000);
 
     }
     
@@ -78,11 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
-                    },2000);
+                    },2500);
             }
 
             
-        }, 2000);
+        }, 2500);
 
     }
     else if (selectedDifficulty === 'insane') {
@@ -116,12 +116,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
-                    },1500);
+                    },2000);
                     
             }
 
             
-        }, 1500);
+        }, 2000);
 
     }
 });
