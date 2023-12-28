@@ -30,22 +30,22 @@
     .instrcution{
         width: 100%;
         height: 100vh;
-        font-size: 3vw;
+        font-size: 3.2vw;
         padding: 2vw;
     }
     .rules p{
         margin: 1.7vh 0;
-        font-size: 3.4vw;
+        font-size: 3.55vw;
     }
     .choose{
         width: 100%;
         height: 100vh;
-        font-size: 3.3vw;
+        font-size: 3.5vw;
         padding: 2vw;
     }
     .level p{
         margin: 1.7vh 0;
-        font-size: 4vw;
+        font-size: 4.2w;
     }
 }
 
