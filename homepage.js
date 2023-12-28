@@ -1,20 +1,21 @@
 let homeMusic = new Audio("home.mp3");
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Play audio after a delay to ensure it's properly loaded
-    setTimeout(function() {
-        homeMusic.play().catch(function(error) {
-            // Handle autoplay error (if any)
-            console.error("Autoplay failed: ", error);
-        });
-    }, 1000); // Adjust the delay as needed
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//     // Play audio after a delay to ensure it's properly loaded
+//     setTimeout(function() {
+//         homeMusic.play().catch(function(error) {
+//             // Handle autoplay error (if any)
+//             console.error("Autoplay failed: ", error);
+//         });
+//     }, 1000); // Adjust the delay as needed
+// });
 
 let difficulties = document.getElementsByClassName("diffi");
 let difficultiesArray = Array.from(difficulties);
 
 difficultiesArray.forEach(element => {
     element.addEventListener('click', function() {
+        homeMusic.pause();
         let selectedDifficulty = "";
 
         if (element.innerText === "EASY") {
