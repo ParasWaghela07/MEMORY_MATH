@@ -8,7 +8,7 @@ let arr=["+","-"];
 let check=1;
 
 document.addEventListener('DOMContentLoaded', function() {
-    homeMusic.pause();
+    
     var selectedDifficulty = localStorage.getItem('selectedDifficulty');
 
     if (selectedDifficulty === 'easy') {
