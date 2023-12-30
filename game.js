@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
 
-            if (a == 5) {
+            if (a == 7) {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
