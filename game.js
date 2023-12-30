@@ -81,11 +81,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
-                    },2500);
+                    },2750);
             }
 
             
-        }, 2500);
+        }, 2750);
 
     }
     else if (selectedDifficulty === 'insane') {
@@ -115,16 +115,16 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
 
-            if (a == 7) {
+            if (a == 5) {
                     clearInterval(intervalId);
                     setTimeout(function(){
                         document.getElementById("num").innerText = "?" ;
-                    },2000);
+                    },2250);
                     
             }
 
             
-        }, 2000);
+        }, 2250);
 
     }
 });
@@ -135,7 +135,6 @@ document.getElementById("btn").addEventListener('click',function(){
     let userAns=document.getElementById("ansbox");
 
     if(str==userAns.value){
-
         won.play();
         document.getElementById("num").innerText = str ;
         document.getElementById("num").style.color="rgb(2, 189, 2)";
