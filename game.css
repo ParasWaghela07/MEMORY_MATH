@@ -46,6 +46,7 @@
     justify-content: center;
     align-items: center;
     height: 45vh;
+    /* background:linear-gradient(180deg,rgb(255, 255, 245), #d7d9ec); */
     /* border: 2px solid black; */
     box-shadow: 0px 0px 5px rgb(106, 105, 105);
 }
@@ -76,12 +77,13 @@
     justify-content: center;
     align-items: center;
     background-color: antiquewhite;
+    /* background:linear-gradient(180deg,rgb(255, 255, 245), #d7d9ec); */
 }
-
 .note{
     margin:2vh 1.5vw;
     font-size: 2.2vh;
     color: rgb(237, 5, 5);
+    
 }
 .note h2{
     color: black;
